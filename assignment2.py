@@ -1,0 +1,10 @@
+import math
+print("enter the first complex number")
+x=complex(float((input("Enter the real part"))),float((input("enter the imaginary part"))))
+print("enter the second complex number")
+y=complex(float((input("Enter the real part"))),float((input("enter the imaginary part"))))
+print(complex(x+y))
+print(complex(x-y))
+print(complex(x*y))
+print(complex(x/y))
+print(mo=math.sqrt(pow(x.real,2)+pow(x.imag,2)))
